@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #41356d;
+}
+
+#hero {
+  position: relative;
+  font-family: "Playfair Display", serif;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(
+    270deg,
+    #564592 38.75%,
+    rgba(175, 194, 213, 0) 100%
+  );
+  mix-blend-mode: normal;
+}
+
+.text-white {
+  color: white;
+}
+
+.judul {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.text1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.text2 {
+  font-size: 0.9rem;
+}
+
+.wrapper {
+  background-color: #f1f2f7;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.item {
+  border-radius: 16px;
+  margin: 10px;
+  background: #f1f2f7;
+  box-shadow: 5px 5px 11px #cdced2, -5px -5px 11px #ffffff;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+}
+.nama {
+  align-self: start;
+}
+
+.thumbnail {
+  width: 150px;
+  height: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.thumbnail img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.info {
+  align-self: flex-start;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fitur {
+  font-family: serif;
+}
+.harga {
+  font-weight: 700;
+  font-family: serif;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+  * {
+    font-size: 12px;
+  }
+}
